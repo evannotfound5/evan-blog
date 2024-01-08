@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "348534",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "eaf6",
+      "unicode_decimal": 60150
+    },
+    {
+      "icon_id": "430545",
+      "name": "上箭头",
+      "font_class": "arrow-up",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "1613593",
+      "name": "邮箱",
+      "font_class": "youxiang1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "7404300",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e771",
+      "unicode_decimal": 59249
+    },
+    {
+      "icon_id": "11855594",
+      "name": "亮度",
+      "font_class": "liangdu",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "26267597",
+      "name": "juejin",
+      "font_class": "juejin",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
       "icon_id": "38702320",
       "name": "上传",
       "font_class": "shangchuan",

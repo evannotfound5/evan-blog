@@ -6,11 +6,12 @@
   --main-card-box-shadow: 0 0 4px #30363d;;
   --main-card-hover-box-shadow: 0 0 12px #30363d;;
   --evan-text-color: #999;
-  --evan-card-text-color: #ccc;
-  --evan-card-borer-color: #292929;
-  --evan-card-backup-color: rgba(0,0,0,.8)
   --evan-white-color: #fff;
   --evan-black-color: #333;
+  --evan-header-text-color: #cbcbd1;
+  --evan-card-text-color: #ccc;
+  --evan-card-borer-color: #292929;
+  --evan-card-backup-color: rgba(0,0,0,.15);
 }
 
 * {
@@ -65,4 +66,16 @@ li {
 a {
   color: var(--main-text-color);
   text-decoration: none;
+}
+
+.header-title {
+  padding-left: 24px;
+  margin-bottom: 24px;
+  color: var(--evan-header-text-color);
+  font-size: 36px;
+}
+
+.header-title::before {
+  content: '#';
+  padding-right: 4px;
 }

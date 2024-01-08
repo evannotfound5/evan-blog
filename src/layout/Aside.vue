@@ -33,6 +33,7 @@
   padding-left: 20px;
 
   h4 {
+    color: var(--evan-text-color);
     font-weight: 700;
     margin-bottom: 8px;
   }

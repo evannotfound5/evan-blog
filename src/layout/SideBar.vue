@@ -5,7 +5,7 @@
           <div class="avatar">
             <img src="../assets/img/avatar.jpg" alt="头像">
           </div>
-          <h2 class="nickname">evannotfound5</h2>
+          <h2 class="nickname">EvanNotFound5</h2>
           <div class="desc">生活不止眼前的苟且，还有诗和远方</div>
         </div>
         <ul class="nav">
@@ -17,11 +17,11 @@
         </ul>
       </div>
       <div class="sidebar-bottom">
-        <router-link to="/edit" title="写文章"><i class="iconfont icon-bi"></i></router-link>
-        <router-link to="/postimg" title="上传图片"><i class="iconfont icon-shangchuan"></i></router-link>
-        <router-link to="/dashboard" title="后台"><i class="iconfont icon-suo"></i></router-link>
-        <router-link to="/about" title="关于"><i class="iconfont icon-tixing"></i></router-link>
-        <router-link to="/share" title="分享"><i class="iconfont icon-fenxiang"></i></router-link>
+        <a href="#" title="亮暗切换"><i class="iconfont icon-liangdu"></i></a>
+        <a href="https://github.com/evannotfound5" target="_blank" title="GitHub"><i class="iconfont icon-github"></i></a>
+        <a href="https://juejin.cn/user/981236373005534" target="_blank" title="掘金"><i class="iconfont icon-juejin"></i></a>
+        <a href="mailto:3032317941@qq.com" title="邮箱"><i class="iconfont icon-youxiang"></i></a>
+        <a href="#" title="控制面板"><i class="iconfont icon-kaiguan"></i></a>
       </div>
     </div>
 </template>
@@ -33,6 +33,9 @@
 <style lang="scss" scoped>
 
 #sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   width: 298px;
   height: 100%;
@@ -55,6 +58,7 @@
 
 .sidebar-center {
   margin-top: 99px;
+  margin-bottom: 136px;
 }
 
 .profile {
@@ -75,7 +79,7 @@
     padding: 12px 0;
   }
   .nickname:hover {
-    color:#ccc;
+    color: var(--evan-header-text-color);
   }
   .desc {
     font-size: 14px;
@@ -107,10 +111,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   height: 120px;
 
   a {

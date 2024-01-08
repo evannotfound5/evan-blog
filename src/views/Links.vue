@@ -41,12 +41,6 @@ import Aside from '../layout/Aside.vue'
 
 <style lang="scss" scoped>
 
-.header-title {
-  padding-left: 24px;
-  margin-bottom: 24px;
-  color: var(--main-text-color);
-  font-size: 36px;
-}
 .link-box {
   display: flex;
   padding-right: 76px;
@@ -57,7 +51,7 @@ import Aside from '../layout/Aside.vue'
   h4 {
     margin-top: 4px;
     margin-bottom: 20px;
-    color: var(--main-text-color);
+    color: var(--evan-header-text-color);
     font-size: 28px;
   }
   .links {
