@@ -1,5 +1,5 @@
 <template>
-  <h3 class="header-title">友链</h3>
+  <HeaderTitle title="友链页"></HeaderTitle>
   <div class="link-box">
     <div class="main-content">   
     <h4>推荐</h4>
@@ -37,6 +37,7 @@
 
 <script setup>
 import Aside from '../layout/Aside.vue'
+import HeaderTitle from '@/components/HeaderTitle.vue';
 </script>
 
 <style lang="scss" scoped>

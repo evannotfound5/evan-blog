@@ -1,5 +1,6 @@
 <template>
-  <div id="sidebar">
+  <div style="width: 298px;">
+    <div id="sidebar">
       <div class="sidebar-center">
         <div class="profile">
           <div class="avatar">
@@ -9,11 +10,11 @@
           <div class="desc">生活不止眼前的苟且，还有诗和远方</div>
         </div>
         <ul class="nav">
-          <li class="nav-item"><router-link to="/">文章</router-link></li>
-          <li class="nav-item"><router-link to="/photos">相册</router-link></li>
-          <li class="nav-item"><router-link to="/shuoshuo">说说</router-link></li>
-          <li class="nav-item"><router-link to="/links">友链</router-link></li>
-          <li class="nav-item"><router-link to="/about">关于</router-link></li>
+          <li class="nav-item"><router-link to="/"><i class="iconfont icon-grouping"></i>文章</router-link></li>
+          <li class="nav-item"><router-link to="/photos"><i class="iconfont icon-22"></i>相册</router-link></li>
+          <li class="nav-item"><router-link to="/shuoshuo"><i class="iconfont icon-liuyan1"></i>说说</router-link></li>
+          <li class="nav-item"><router-link to="/links"><i class="iconfont icon-link"></i>友链</router-link></li>
+          <li class="nav-item"><router-link to="/about"><i class="iconfont icon-tixing"></i>关于</router-link></li>
         </ul>
       </div>
       <div class="sidebar-bottom">
@@ -24,6 +25,7 @@
         <a href="#" title="控制面板"><i class="iconfont icon-kaiguan"></i></a>
       </div>
     </div>
+  </div>
 </template>
 
 <script setup>
@@ -33,10 +35,9 @@
 <style lang="scss" scoped>
 
 #sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 298px;
   height: 100%;
   background-color: #1e1e1e;
@@ -96,6 +97,9 @@
       margin-bottom: 6px;
       border-radius: 8px;
       transition: background-color .5s;
+      .iconfont {
+        padding-right: 10px;
+      }
     }
     a:hover {
       background-color: #262626;

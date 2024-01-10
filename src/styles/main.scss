@@ -31,6 +31,7 @@ body,
 #app {
   display: flex;
   background-color: #0c0c0d;
+  overflow: auto;
 }
 
 body::before {
@@ -68,14 +69,3 @@ a {
   text-decoration: none;
 }
 
-.header-title {
-  padding-left: 24px;
-  margin-bottom: 24px;
-  color: var(--evan-header-text-color);
-  font-size: 36px;
-}
-
-.header-title::before {
-  content: '#';
-  padding-right: 4px;
-}

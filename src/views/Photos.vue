@@ -1,6 +1,6 @@
 
 <template>
-  <h3 class="header-title">照片墙</h3>
+  <HeaderTitle title="相册页"></HeaderTitle>
   <div class="photo-box">
     <div class="photo-content">
       <div v-for="item in photoCates" :key="item.id" class="link-item">
@@ -17,7 +17,7 @@
 <script setup>
 import { ref } from 'vue'
 import Aside from '../layout/Aside.vue'
-
+import HeaderTitle from '@/components/HeaderTitle.vue';
 
 const photoCates = ref([
   { id: 1001, title: '日常', desc: '记录日常生活的点滴', imgUrl: 'https://mysource-hexo.wyun521.top/img/avatar/5.jpg' },

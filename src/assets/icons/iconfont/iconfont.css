@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4397879 */
-  src: url('iconfont.woff2?t=1704695396522') format('woff2'),
-       url('iconfont.woff?t=1704695396522') format('woff'),
-       url('iconfont.ttf?t=1704695396522') format('truetype');
+  src: url('iconfont.woff2?t=1704876875275') format('woff2'),
+       url('iconfont.woff?t=1704876875275') format('woff'),
+       url('iconfont.ttf?t=1704876875275') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,86 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+  content: "\e746";
+}
+
+.icon-setupb:before {
+  content: "\e63a";
+}
+
+.icon-biaoqian:before {
+  content: "\e62b";
+}
+
+.icon-31guanzhu1xuanzhong:before {
+  content: "\e655";
+}
+
+.icon-wenzhang2:before {
+  content: "\e681";
+}
+
+.icon-riqi:before {
+  content: "\e65e";
+}
+
+.icon-liuyan:before {
+  content: "\e606";
+}
+
+.icon-liuyan1:before {
+  content: "\e656";
+}
+
+.icon-wodexiao:before {
+  content: "\e941";
+}
+
+.icon-fenlei:before {
+  content: "\e620";
+}
+
+.icon-zhaopian:before {
+  content: "\e687";
+}
+
+.icon-grouping:before {
+  content: "\e62a";
+}
+
+.icon-22:before {
+  content: "\e621";
+}
+
+.icon-huatifuhao:before {
+  content: "\e8b0";
+}
+
+.icon-guanzhu:before {
+  content: "\e8b1";
+}
+
+.icon-xiangji:before {
+  content: "\e8c7";
+}
+
+.icon-album:before {
+  content: "\e62c";
+}
+
+.icon-comment-full:before {
+  content: "\e9b2";
+}
+
+.icon-huati:before {
+  content: "\e60e";
+}
+
+.icon-a-wenzhangguanli_huaban1:before {
+  content: "\e734";
 }
 
 .icon-github:before {

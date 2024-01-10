@@ -1,5 +1,5 @@
 <template>
-  <h3 class="header-title">文章列表</h3>
+  <HeaderTitle title="文章列表"></HeaderTitle>
   <div class="post-box">
     <div class="post-list">
       <router-link :to="`/article/${index+1}`" v-for="(item,index) in 8" :key="index">
@@ -22,6 +22,7 @@
 
 <script setup>
 import Aside  from '../layout/Aside.vue'
+import HeaderTitle from '@/components/HeaderTitle.vue';
 </script>
 
 <style lang="scss" scoped>
